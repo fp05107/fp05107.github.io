@@ -4,11 +4,75 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Subham Sahoo</title>
+    <title>Subham Sahoo</title><link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
-        Hello world This is my prtfolio😃
+    <div id="header">
+
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo" alt="">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Me</a></li>
+                    <li><a href="#">Skills</a></li>
+                    <li><a href="#">Project</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi , I am subham sahoo</h1>
+            </div>
+        </div>
     </div>
+<!-- -----------------About-------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/background.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, dolorum fuga placeat explicabo omnis eligendi accusamus corrupti asperiores deleniti doloremque eum impedit, deserunt praesentium quos est beatae maiores animi modi dolore, et aliquam quam similique earum? Nam ex molestias sint id laboriosam at sunt quae!</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills" >
+                        <ul>
+                            <li><span>UI?UX</span><br>Designing Web/App Interfaces</li>
+                            <li><span>Web Developement</span><br>Designing Web/App Interfaces</li>
+                            <li><span>App Developement</span><br>Designing Web/App Interfaces</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>UI?UX</span><br>Designing Web/App Interfaces</li>
+                            <li><span>Web Developement</span><br>Designing Web/App Interfaces</li>
+                            <li><span>App Developement</span><br>Designing Web/App Interfaces</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>math in BSC</span><br>Designing Web/App Interfaces</li>
+                            <li><span>Web Developement</span><br>Designing Web/App Interfaces</li>
+                            <li><span>App Developement</span><br>Designing Web/App Interfaces</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ------------------services---------------------- -->
+    
 </body>
 </html>
+
+<script src="script.js"></script>
