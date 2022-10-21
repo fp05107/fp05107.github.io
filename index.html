@@ -5,25 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Subham Sahoo</title><link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 </head>
 <body>
     <div id="header">
 
+        <nav>
+            <h1> <span>S</span>ubham</h1>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#services">Skills</a></li>
+                <li><a href="#portfolio">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
         <div class="container">
-            <nav>
-                <img src="images/logo.png" class="logo" alt="">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About Me</a></li>
-                    <li><a href="#">Skills</a></li>
-                    <li><a href="#">Project</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
 
             <div class="header-text">
-                <p>UI/UX Designer</p>
                 <h1>Hi , I am subham sahoo</h1>
+                <p>Java Backend Developer</p>
             </div>
         </div>
     </div>
@@ -72,6 +75,119 @@
 
     <!-- ------------------services---------------------- -->
     
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Skills</h1>
+            <div class="services-list">
+                <div>
+                    
+                    <img src="skills/java.icon.png" alt="">
+                </div>
+                <div>
+                   
+                    <img src="skills/aws.svg" alt="">
+                    
+                </div>
+                <div>
+                    <img src="skills/brand-github.svg" alt="">
+                
+                </div>
+                <div>
+                    
+                    <img src="skills/git.svg" alt="">
+                </div>
+                <div>
+           
+                    <img src="skills/hibernate.svg" alt="">
+
+                </div>
+                <div>
+        
+                    <img src="skills/spring.svg" alt="">
+                   
+                </div>
+                <div>
+   
+                    <img src="skills/html.icon.png" alt="">
+                    
+                </div>
+                <div>
+                    <img src="skills/css.icon.png" alt="">
+                   
+                </div>
+                <div>
+                    <img src="skills/js.icon.png" alt="">
+       
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------------------------Portfolio----------------------->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" alt="">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo, hic?</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" alt="">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo, hic?</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo, hic?</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="" class="btn">See More</a>
+
+        </div>
+    </div>
+    <!-- ------------------------------contact---------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>contact@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>86753418387</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/my-cv.pdf" download="" class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form action="">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="text" name="email" placeholder="Youe Email" required>
+                        <textarea name="Messege" rows="6" placeholder="Your Messege"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copy-right">
+            <p>Copyright made with<i class="fa-solid fa-heart"></i>by subham</p>
+        </div>
+    </div>
 </body>
 </html>
 
