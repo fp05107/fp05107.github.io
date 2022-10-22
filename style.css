@@ -47,7 +47,8 @@ nav{
     /* border: 2px solid red; */
     z-index: 5;
     margin-top: 0px;
-    background: #368BC1;
+    background: transparent;
+    transition: 0.6s;
 }
 nav h1{
     font-size: 30px;
@@ -84,6 +85,11 @@ nav ul li a ::after{
 nav ul li a:hover::after{
     width: 100%;
 }
+nav.sticky{
+    background: #05386B;
+    box-shadow: rgba(0,0,0,0.6);
+}
+
 .header-text{
     margin-top: 10%;
     font-size: 30px;

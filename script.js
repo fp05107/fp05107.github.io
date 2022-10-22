@@ -25,4 +25,16 @@ function closemenu(){
 }
 
 
+let nav = document.querySelector("nav");
+window.addEventListener("scroll", function(){
+    nav.classList.toggle("sticky", this.window.scrollY>0); 
+ })
+ 
 
+ var typed = new Typed(".auto-type", {
+    strings: ["Java Backend Developer.","Problem Solver.","Cricket." ],
+    typeSpeed: 100,
+    backSpeed: 100,
+    loop: true
+ })
+ 
