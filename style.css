@@ -18,14 +18,16 @@ html{
 body {
     /* background-image: url(images/bgimg.jpg) ; */
     
-    background: #95B9C7;
+    /* background: #95B9C7; */
+    /* background: #F64C72; */
+    background: #2F2AF2;
     color: #fff;
 }
 
 #header{
     width: 100%;
     height: 100vh;
-    background-image: url(images/glacier.webp);
+    background-image: url(images/home.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -76,7 +78,7 @@ nav ul li a ::after{
     content: '';
     width: 0;
     height: 3px;
-    background: #05386B;
+    background: #F64C72;
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -86,12 +88,20 @@ nav ul li a:hover::after{
     width: 100%;
 }
 nav.sticky{
-    background: #05386B;
+    background: #242582;
     box-shadow: rgba(0,0,0,0.6);
+}
+#resume{
+    border: 2px solid red;
+    padding: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    background: #F64C72;
+    border-radius: 10px;
 }
 
 .header-text{
-    margin-top: 10%;
+    margin-top: 15%;
     font-size: 30px;
 }
 .header-text h1{
@@ -114,11 +124,11 @@ nav.sticky{
     flex-basis: 35%;
 }
 .about-col-1 img{
-    width: 100%;
+    width: 80%;
     border-radius: 15px;
 }
 .about-col-2{
-    flex-basis: 60%;
+    flex-basis: 50%;
     text-align: center;
 
 }
@@ -143,7 +153,7 @@ nav.sticky{
     content: '';
     width: 0;
     height: 3px;
-    background: #05386B;
+    background: #F64C72;
     position: absolute;
     left: 0;
     bottom: -8px;
@@ -219,7 +229,7 @@ nav.sticky{
 
 }
 .services-list div:hover{
-    /* background: #05386B; */
+    /* background: #F64C72; */
     transform: translateY(-10px);
 }
 
@@ -254,7 +264,7 @@ nav.sticky{
 .layer{
     width: 100%;
     height: 0;
-    background: linear-gradient(rgba(0,0,0,0.6) #05386B);
+    background: linear-gradient(rgba(0,0,0,0.6) #F64C72);
     border-radius: 10px;
     position: absolute;
     left: 0;
@@ -279,7 +289,7 @@ nav.sticky{
 }
 .layer a{
     margin-top: 20px;
-    color: #05386B;
+    color: #F64C72;
     text-decoration: none;
     font-size: 18px;
     line-height: 60px;
@@ -312,7 +322,7 @@ nav.sticky{
     width: 30%;
     border-radius: 5px;
     border: none;
-    background: #05386B;
+    background: #F64C72;
     color: #fff;
     cursor: pointer;
 }
@@ -321,7 +331,7 @@ nav.sticky{
     width: 30%;
     border-radius: 5px;
     border: none;
-    background: #05386B;
+    background: #F64C72;
     color: #fff;
     cursor: pointer;
 }
@@ -329,19 +339,70 @@ nav.sticky{
     display: block;
     margin: 50px auto;
     width: fit-content;
-    border: 1px solid #05386B;
+    border: 1px solid #F64C72;
     padding: 14px 50px;
     border-radius: 6px;
     text-decoration: none;
     color: #fff;
-    background: #05386B;
+    background: #F64C72;
     transition: background 0.5s;
 }
 .btn:hover{
-    background: #05386B;
+    background: #F64C72;
 
 }
 
+/*--------------------- projects------------------------------- */
+#my_projects{
+    font-size: 60px;
+}
+
+#projects{
+    width: 85%;
+    margin: auto;
+    display: grid;
+    /* grid-template-columns: repeat(3,1fr); */
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    gap: 30px;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+.work{
+    padding: 7%;
+    text-align: center;
+    background: #718d98;
+    
+}
+.work_img{
+    width: 100%;
+    margin: auto;
+    margin: 20px 0;
+}
+.skill{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+}
+.skill div{
+    
+    width: 45%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    background: #F64C72;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+}
+.skill a{
+    text-decoration: none;
+    list-style: none;
+}
+.skills a{
+    color: #fff;
+}
 /* -------------------------contact-------------------- */
 
 .contact-left{
@@ -355,7 +416,7 @@ nav.sticky{
     margin-top: 30px;
 }
 .contact-left p i{
-    color: #05386B;
+    color: #F64C72;
     margin-right: 15px;
     font-size: 25px;
 }
@@ -370,17 +431,17 @@ nav.sticky{
     color: #ababab;
     display: inline-block;
     transition: transform 0.5s;
-    color: #05386B;
+    color: #F64C72;
 
 }
 .social-icons:hover{
-    color: #05386B;
+    color: #F64C72;
     transform: translateY(-5px);
 
 }
 .btn.btn2{
     display: inline-block;
-    background: #05386B;
+    background: #F64C72;
 
 }
 .contact-right form{
@@ -415,7 +476,7 @@ form .btn2{
     margin-top: 20px;
 }
 .contact-right i{
-    color: #05386B;
+    color: #F64C72;
 }
 
 
@@ -425,10 +486,10 @@ nav .fa-solid{
 }
 @media only screen and (max-width:600px){
     #header{
-        background-image: url();
+        background-image: url(images/homephone.jpg);
     }
     .header-text{
-        margin-top: 100%;
+        margin-top: 50%;
         font-size: 16px;
 
     }
@@ -440,7 +501,7 @@ nav .fa-solid{
         font-size: 25px;
     }
     nav ul{
-        background: #05386B;
+        background: #F64C72;
         position: fixed;
         top: 0;
         right: -200px;
@@ -492,4 +553,11 @@ nav .fa-solid{
     .copy-right{
         font-size: 14px;
     }
+}
+
+@media only screen and (min-width:600px) and (max-width:1200px){
+    #header{
+        background-image: url(images/homephone.jpg);
+    }
+    
 }
