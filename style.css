@@ -403,8 +403,19 @@ nav.sticky{
 .skills a{
     color: #fff;
 }
-/* -------------------------contact-------------------- */
 
+/* ---------------------github------------------------- */
+
+.calendar{
+    background: black;
+    width: 90%;
+    padding: 15px;
+    margin: 50px;
+}
+/* -------------------------contact-------------------- */
+#contact{
+    margin-top: 100px;
+}
 .contact-left{
     flex-basis: 35%;
 
@@ -553,11 +564,27 @@ nav .fa-solid{
     .copy-right{
         font-size: 14px;
     }
+    .calendar{
+        background: black;
+        width: 90%;
+        padding: 15px;
+    }
 }
 
-@media only screen and (min-width:600px) and (max-width:1200px){
+@media only screen and (min-width:600px) and (max-width:1073px){
     #header{
         background-image: url(images/homephone.jpg);
     }
-    
+    #projects{
+        width: 85%;
+        margin: auto;
+        display: grid;
+        /* grid-template-columns: repeat(3,1fr); */
+        grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+        gap: 30px;
+        justify-content: space-around;
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 70px;
+    }
 }

@@ -32,9 +32,21 @@ window.addEventListener("scroll", function(){
  
 
  var typed = new Typed(".auto-type", {
-    strings: ["Java Backend Developer.","Problem Solver.","Cricket." ],
+    strings: ["Java Backend Developer.","Problem Solver." ],
     typeSpeed: 100,
     backSpeed: 100,
     loop: true
  })
+ 
+ let username = "fp05107";
+ GitHubCalendar(".calendar", "fp05107", { responsive: true });
+  // Use a proxy
+//   GitHubCalendar(".calendar", "fp05107", {
+//     proxy (username) {
+//       return fetch(`https://your-proxy.com/github?user=fp05107`)
+//     }
+//  }).then(r => r.text());
+
+ 
+
  
