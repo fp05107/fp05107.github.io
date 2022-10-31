@@ -25,13 +25,13 @@ body {
     /* background: #95B9C7; */
     /* background: #F64C72; */
     /* background: #2F2AF2; */
-    color: #fff;
+    color: 	#fff;
 }
 
 #header{
     width: 100%;
     height: 100vh;
-    background-image: url(images/home.jpg);
+    background-image: url(images/sparkle-glitter.gif);
     background-size: 100%;
     background-size: 100% 100%;
     background-repeat: no-repeat;
