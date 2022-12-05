@@ -134,11 +134,9 @@ nav.sticky{
     border-radius: 20px;
 }
 .about-col-2{
+    /* border: 2px solid red; */
     flex-basis: 50%;
     text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     font-size: 20px;
 
 }
@@ -216,8 +214,9 @@ nav.sticky{
 }
 .services-list div{
     /* background: #262626; */
-    background: #fff;
-    padding: 40px;
+    background: #ffffff61;
+    /* opacity: 0.2; */
+    padding: 25px;
     font-size: 13px;
     font-weight: 300;
     border-radius: 10px;
@@ -243,7 +242,8 @@ nav.sticky{
 }
 .services-list div:hover{
     /* background: #F64C72; */
-    transform: translateY(-10px);
+    transform: rotateY(60deg);
+    background-color: none;
 }
 
 /* --------------portfolio--------------------- */
@@ -581,9 +581,10 @@ nav .fa-solid{
         font-size: 40px;
 
     }
-    .about-col-1,.about-col-2{
+    .about-col-1,.about-col-2,.about-col-3{
+    
         flex-basis: 100%;
-
+        display: flex;
     }
     .about-col-1{
         margin-bottom: 30px;
