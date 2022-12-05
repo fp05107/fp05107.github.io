@@ -425,6 +425,25 @@ nav.sticky{
     padding: 15px;
     margin: 50px;
 }
+#git_detail_stats{
+    margin: auto;
+}
+.git_stats{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    padding: auto;
+}
+.inside_git_stats{
+    margin: auto;
+}
+.inside_git_stats img{
+    width: 100%;
+    height: auto;
+}
 /* -------------------------contact-------------------- */
 #contact{
     margin-top: 100px;
