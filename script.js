@@ -4,6 +4,30 @@ var resume = document.getElementById("resume");
 resume.addEventListener('click',function(){
     window.open("https://drive.google.com/file/d/1AOHf46vMzZFKLEHMTg1d9dF4BrnIjwyN/view?usp=sharing")
 })
+//About Section
+
+let facebook_uper = document.getElementById("facebook_uper");
+let instagram_uper = document.getElementById("instagram_uper");
+let linkedin_uper = document.getElementById("linkedin_uper");
+let github_uper = document.getElementById("github_uper");
+
+facebook_uper.addEventListener('click',()=>{
+    window.open("https://www.facebook.com/subham.sahoo.7528610")
+})
+instagram_uper.addEventListener('click',()=>{
+    window.open("https://www.instagram.com/s_4__s_u_b_h_a_m/")
+})
+linkedin_uper.addEventListener('click',()=>{
+    window.open("https://www.linkedin.com/in/subham-sahoo-37089222b/")
+})
+github_uper.addEventListener('click',()=>{
+    window.open("https://github.com/fp05107")
+})
+
+
+//About section end
+
+
 
 //Project Section//
 let olx_git = document.getElementById("olx_git");
@@ -47,21 +71,36 @@ auction_video.addEventListener('click',function(){
     window.open("https://drive.google.com/file/d/1bkpx7RgiOFbGZu23wwQDbP66Qgciu3BL/view?usp=sharing")
 })
 
-
-
-
-
-
-
-
-
-
-
-
+let btn = document.getElementById("resume_dwn");
+btn.addEventListener('click',function(){
+    window.open("https://drive.google.com/file/d/1AOHf46vMzZFKLEHMTg1d9dF4BrnIjwyN/view")
+})
 
 //Project Section End
 
 
+//Contact Section
+
+
+let facebook_lower = document.getElementById("facebook_lower");
+let instagram_lower = document.getElementById("instagram_lower");
+let linkedin_lower = document.getElementById("linkedin_lower");
+let github_lower = document.getElementById("github_lower");
+
+facebook_lower.addEventListener('click',()=>{
+    window.open("https://www.facebook.com/subham.sahoo.7528610")
+})
+instagram_lower.addEventListener('click',()=>{
+    window.open("https://www.instagram.com/s_4__s_u_b_h_a_m/")
+})
+linkedin_lower.addEventListener('click',()=>{
+    window.open("https://www.linkedin.com/in/subham-sahoo-37089222b/")
+})
+github_lower.addEventListener('click',()=>{
+    window.open("https://github.com/fp05107")
+})
+
+//Contact Section End
 function opentab(tabname) {
 
     for (tabLink of tabLinks) {
