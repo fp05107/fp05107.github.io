@@ -409,6 +409,9 @@ nav.sticky{
     padding: 10px;
     border-radius: 10px;
 }
+.skill div:hover{
+    cursor: pointer;
+}
 .skill a{
     text-decoration: none;
     list-style: none;
