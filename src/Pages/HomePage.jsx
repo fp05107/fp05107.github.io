@@ -3,7 +3,7 @@ import {
     FaLinkedinIn,
     FaGithub,
 } from "react-icons/fa";
-import Typical from "react-typical";
+// import Typical from "react-typical";
 import Subham_Sahoo_Resume from "../download/Subham_Sahoo_Resume (1).pdf";
 import { DownloadIcon } from '@chakra-ui/icons';
 import subham from "../Image/profilepic.jpg";
@@ -46,7 +46,7 @@ const HomePage = () => {
                                     </span>
                                 </h6>
                                 <span className="primary-text">
-                                    <>
+                                    {/* <>
                                         <Typical
                                             loop={Infinity}
                                             steps={[
@@ -60,7 +60,7 @@ const HomePage = () => {
                                                 2000,
                                             ]}
                                         />
-                                    </>
+                                    </> */}
                                 </span>
                                 <span className="profile-tag-line">
                                     Aspiring Full-Stack ( React, SQL, Java, SpringBoot), Aspiring Full Stack Web Development at Masai School Bangaluru , KARNATAKA
