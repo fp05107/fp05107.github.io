@@ -12,7 +12,7 @@ const HomePage = () => {
     return (
         <div id='Home'>
             <div className="container">
-                <div>
+                <div> 
                     <div className="description">
                         <div className="profile-details">
                             <div className="colz">

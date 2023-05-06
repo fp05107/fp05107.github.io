@@ -41,7 +41,7 @@ export const Projects = () => {
             <div className="projectItem">
               <div className="projectImage">
                 <h2 className="project-type">
-                  <span>☆</span> BusReservation System{" "}
+                  <span>☆</span> My Media{" "}
                 </h2>
                 <MyMedia />
               </div>
