@@ -2,12 +2,12 @@
 import { Image } from "@chakra-ui/react";
 import React from "react";
 import Slider from "react-slick";
-import img1 from "./Carousel_Images/figmatic1.png";
-import img2 from "./Carousel_Images/figmatic2.png";
-import img3 from "./Carousel_Images/figmatic3.png";
+import img1 from "./SliderImages/BusReservation1.png"
+import img2 from "./SliderImages/BusReservation2.png"
+import img3 from "./SliderImages/BusReservation3.png"
 
-const Calculator = () => {
 
+const BusReservationSystem = () => {
   var settings = {
     dots: false,
     infinite: true,
@@ -17,7 +17,6 @@ const Calculator = () => {
     slidesToScroll: 1,
     autoplay: true,
   };
-
   return (
     <Slider {...settings}>
       <div>
@@ -33,4 +32,4 @@ const Calculator = () => {
   );
 };
 
-export { Calculator };
+export { BusReservationSystem };

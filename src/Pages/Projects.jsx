@@ -1,30 +1,32 @@
 import React from "react";
 import "../Styles/Projects.css";
 import { FaGithub, FaLink } from "react-icons/fa";
-import { Grocery } from "../Components/GroceryCarousel";
-import { AssessmentTest } from "../Components/AssessmentTest";
-import { BeautyBebo } from "../Components/BeautyBebo";
-import { Calculator } from "../Components/Calculator";
-import { GetHarvest } from "../Components/GetHarvest";
-import { Webtaskit } from "../Components/Webtaskit";
-import { PharmaEasy } from "../Components/PharmaEasy";
-import { GitStar } from "../Components/GitStar";
+import { BusReservationSystem } from "../Components/BusReservationSystem";
+import { MyMedia } from "../Components/MyMedia";
 
-import cyclic_logo from "../assets/cyclic-logo.png";
+// import cyclic_logo from "../assets/cyclic-logo.png";
 import github from "../assets/github.png";
-import npm from "../assets/npm.png";
-import vercel from "../assets/vercel.png";
-import netlify from "../assets/netlify.png";
-import chakraui from "../assets/chakraui.jpg";
-import css from "../assets/css.png";
-import expressjs from "../assets/expressjs.png";
-import html from "../assets/html.png";
-import javascript from "../assets/javascript.png";
-import mongodb from "../assets/mongodb.png";
-import nodejs from "../assets/nodejs.png";
-import react from "../assets/react.png";
-import redux from "../assets/redux.png";
-import vscode from "../assets/vscode.png";
+// import npm from "../assets/npm.png";
+// import vercel from "../assets/vercel.png";
+// import netlify from "../assets/netlify.png";
+// import chakraui from "../assets/chakraui.jpg";
+// import css from "../assets/css.png";
+// import expressjs from "../assets/expressjs.png";
+// import html from "../assets/html.png";
+// import javascript from "../assets/javascript.png";
+// import mongodb from "../assets/mongodb.png";
+// import nodejs from "../assets/nodejs.png";
+// import react from "../assets/react.png";
+// import redux from "../assets/redux.png";
+// import vscode from "../assets/vscode.png";
+import eclipse from "../assets/eclipse.png";
+import hibernate from "../assets/hibernate.png";
+import java from "../assets/java.png";
+import maven from "../assets/maven.png";
+import postman from "../assets/postman.png";
+import spring from "../assets/spring.png";
+import sql from "../assets/sql.png";
+import restapi from "../assets/restapi.png";
 
 export const Projects = () => {
   return (
@@ -39,21 +41,23 @@ export const Projects = () => {
             <div className="projectItem">
               <div className="projectImage">
                 <h2 className="project-type">
-                  <span>☆</span> Grocery Mart{" "}
+                  <span>☆</span> BusReservation System{" "}
                 </h2>
-                <Grocery />
+                <MyMedia />
               </div>
               <div className="projectDetails">
-                <h2>Individual Project</h2>
+                <h2>Group Project</h2>
                 <div className="desc">
                   <span>Description</span>
                   <br />
-                  GroceryMarket is an online food and grocery store. You will
-                  find everything you are looking for with products and brands
-                  in our catalogue. Right from fresh Fruits and Vegetables, Rice
-                  and Dals, Spices and Seasonings to Packaged products,
-                  Beverages, Personal care products, and Meat – we have it all.
-                  It is an Individual project built by me.
+                  Built with robust and scalable Java Spring Boot framework,
+                  this backend project provides seamless connectivity, efficient
+                  data management, and secure user authentication for your
+                  social media app. With RESTful APIs, database integration, and
+                  optimized performance, this backend solution ensures smooth
+                  functionality, reliable data handling, and enhanced user
+                  experience. Get your social media app up and running with the
+                  power of Java Spring Boot backend!"
                 </div>
 
                 <div className="techStacks">
@@ -62,90 +66,67 @@ export const Projects = () => {
                     <div>
                       <div className="languages">
                         <div>
-                          <img src={css} alt="CSS" />
+                          <img src={java} alt="java" />
                         </div>
                         <div>
-                          <p>CSS</p>
-                        </div>
-                      </div>
-                      <div className="languages">
-                        <div>
-                          <img src={javascript} alt="javascript" />
-                        </div>
-                        <div>
-                          <p>JavaScript</p>
+                          <p>Java</p>
                         </div>
                       </div>
                       <div className="languages">
                         <div>
-                          <img src={vercel} alt="vercel" />
+                          <img src={spring} alt="spring" />
                         </div>
                         <div>
-                          <p>Vercel</p>
-                        </div>
-                      </div>
-                      <div className="languages">
-                        <div>
-                          <img src={react} alt="react" />
-                        </div>
-                        <div>
-                          <p>React.js</p>
+                          <p>Spring</p>
                         </div>
                       </div>
                       <div className="languages">
                         <div>
-                          <img src={chakraui} alt="Chakra ui" />
+                          <img src={hibernate} alt="hibernate" />
                         </div>
                         <div>
-                          <p>Chakra UI</p>
-                        </div>
-                      </div>
-                      <div className="languages">
-                        <div>
-                          <img src={expressjs} alt="express.js" />
-                        </div>
-                        <div>
-                          <p>Express.js</p>
+                          <p>Hibernate</p>
                         </div>
                       </div>
                       <div className="languages">
                         <div>
-                          <img src={nodejs} alt="node" />
+                          <img src={maven} alt="Maven" />
                         </div>
                         <div>
-                          <p>Node.js</p>
-                        </div>
-                      </div>
-                      <div className="languages">
-                        <div>
-                          <img src={cyclic_logo} alt="cyclic" />
-                        </div>
-                        <div>
-                          <p>Cyclic</p>
+                          <p>Maven</p>
                         </div>
                       </div>
                       <div className="languages">
                         <div>
-                          <img src={mongodb} alt="MongoDB" />
+                          <img src={restapi} alt="rest api" />
                         </div>
                         <div>
-                          <p>Mongo DB</p>
-                        </div>
-                      </div>
-                      <div className="languages">
-                        <div>
-                          <img src={npm} alt="NPM" />
-                        </div>
-                        <div>
-                          <p>NPM</p>
+                          <p>Rest API</p>
                         </div>
                       </div>
                       <div className="languages">
                         <div>
-                          <img src={vscode} alt="vs-code" />
+                          <img src={sql} alt="Sql" />
                         </div>
                         <div>
-                          <p>VS-Code</p>
+                          <p>SQL</p>
+                        </div>
+                      </div>
+
+                      <div className="languages">
+                        <div>
+                          <img src={postman} alt="postman" />
+                        </div>
+                        <div>
+                          <p>Postman</p>
+                        </div>
+                      </div>
+                      <div className="languages">
+                        <div>
+                          <img src={eclipse} alt="eclipse" />
+                        </div>
+                        <div>
+                          <p>eclipse</p>
                         </div>
                       </div>
                       <div className="languages">
@@ -163,7 +144,7 @@ export const Projects = () => {
                     <button>
                       <h3>
                         <a
-                          href="https://github.com/lokesh-patidar/GroceryMarket"
+                          href="https://github.com/fp05107/Social_Media"
                           target="_blank"
                           rel="noreferrer"
                         >
@@ -174,11 +155,11 @@ export const Projects = () => {
                     <button>
                       <h3>
                         <a
-                          href="https://web-taskit-kan3.vercel.app/"
+                          href="https://drive.google.com/file/d/1T9I8B3I6nZAWEzTdZ-U7Q-TdAEt5s42S/view?usp=sharing"
                           target="_blank"
                           rel="noreferrer"
                         >
-                          <FaLink /> Diployed Link
+                          <FaLink /> Video Link
                         </a>
                       </h3>
                     </button>
@@ -186,148 +167,23 @@ export const Projects = () => {
                 </div>
               </div>
             </div>
-
             <br />
             <br />
-
-            <div className="projectItem1">
-              <div className="projectImage">
-                <h2 className="project-type">
-                  <span>☆</span> WebTaskit website
-                </h2>
-                <Webtaskit />
-              </div>
-              <div className="projectDetails">
-                <h2>Collaborative Project</h2>
-                <div className="desc">
-                  <span>Description</span>
-                  <br />
-                  Here is the task tracking website in this website I worked in
-                  a team of 5 members And I made a dynamic task management
-                  functionality so that users can manage their tasks and can
-                  plan accordingly, On our website calendar events are also
-                  there with will help full for users to tack date and month
-                  planning as well.
-                </div>
-
-                <div className="techStacks">
-                  <div className="tech-stacks">
-                    <h3>Tech-Stacks & Tools used</h3>
-                    <div>
-                      <div className="languages">
-                        <div>
-                          <img src={vercel} alt="vercel" />
-                        </div>
-                        <div>
-                          <p>Vercel</p>
-                        </div>
-                      </div>
-                      <div className="languages">
-                        <div>
-                          <img src={javascript} alt="javascript" />
-                        </div>
-                        <div>
-                          <p>JavaScript</p>
-                        </div>
-                      </div>
-                      <div className="languages">
-                        <div>
-                          <img src={react} alt="react" />
-                        </div>
-                        <div>
-                          <p>React.js</p>
-                        </div>
-                      </div>
-                      <div className="languages">
-                        <div>
-                          <img src={chakraui} alt="Chakra ui" />
-                        </div>
-                        <div>
-                          <p>Chakra UI</p>
-                        </div>
-                      </div>
-                      <div className="languages">
-                        <div>
-                          <img src={redux} alt="redux" />
-                        </div>
-                        <div>
-                          <p>Redux</p>
-                        </div>
-                      </div>
-                      <div className="languages">
-                        <div>
-                          <img src={npm} alt="NPM" />
-                        </div>
-                        <div>
-                          <p>NPM</p>
-                        </div>
-                      </div>
-                      <div className="languages">
-                        <div>
-                          <img src={vscode} alt="vs-code" />
-                        </div>
-                        <div>
-                          <p>VS-Code</p>
-                        </div>
-                      </div>
-                      <div className="languages">
-                        <div>
-                          <img src={github} alt="github" />
-                        </div>
-                        <div>
-                          <p>GitHub</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="btn">
-                    <button>
-                      <h3>
-                        <a
-                          href="https://github.com/lokesh-patidar/WebTaskit"
-                          target="_blank"
-                          rel="noreferrer"
-                        >
-                          <FaGithub /> GitHub Repo
-                        </a>
-                      </h3>
-                    </button>
-                    <button>
-                      <h3>
-                        <a
-                          href="https://web-taskit-ynzg.vercel.app/"
-                          target="_blank"
-                          rel="noreferrer"
-                        >
-                          <FaLink /> Diployed Link
-                        </a>
-                      </h3>
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <br />
-            <br />
-
             <div className="projectItem">
               <div className="projectImage">
                 <h2 className="project-type">
-                  <span>☆</span> pharmeasy.in website{" "}
+                  <span>☆</span> BusReservation System{" "}
                 </h2>
-                <PharmaEasy />
+                <BusReservationSystem />
               </div>
               <div className="projectDetails">
-                <h2>Collaborative Project</h2>
+                <h2>Group Project</h2>
                 <div className="desc">
                   <span>Description</span>
-                  <br />
-                  PharmEasy is a consumer healthcare “super app” that provides
-                  consumers with on-demand, home-delivered access to a wide
-                  range of prescription, OTC pharmaceuticals, other consumer
-                  healthcare products, comprehensive diagnostic test services,
-                  and teleconsultations, serving their healthcare needs.
+                  <br />A REST API for a Bus Reservation System Portal
+                  application. This API performs all the fundamental CRUD
+                  operations of any Bus Reservation System Portal with user
+                  validation at every step.
                 </div>
 
                 <div className="techStacks">
@@ -336,74 +192,67 @@ export const Projects = () => {
                     <div>
                       <div className="languages">
                         <div>
-                          <img src={html} alt="html" />
+                          <img src={java} alt="java" />
                         </div>
                         <div>
-                          <p>HTML</p>
-                        </div>
-                      </div>
-                      <div className="languages">
-                        <div>
-                          <img src={css} alt="CSS" />
-                        </div>
-                        <div>
-                          <p>CSS</p>
+                          <p>Java</p>
                         </div>
                       </div>
                       <div className="languages">
                         <div>
-                          <img src={javascript} alt="javascript" />
+                          <img src={spring} alt="spring" />
                         </div>
                         <div>
-                          <p>JavaScript</p>
-                        </div>
-                      </div>
-                      <div className="languages">
-                        <div>
-                          <img src={netlify} alt="netlify" />
-                        </div>
-                        <div>
-                          <p>Netlify</p>
+                          <p>Spring</p>
                         </div>
                       </div>
                       <div className="languages">
                         <div>
-                          <img src={react} alt="react" />
+                          <img src={hibernate} alt="hibernate" />
                         </div>
                         <div>
-                          <p>React.js</p>
-                        </div>
-                      </div>
-                      <div className="languages">
-                        <div>
-                          <img src={chakraui} alt="Chakra ui" />
-                        </div>
-                        <div>
-                          <p>Chakra UI</p>
+                          <p>Hibernate</p>
                         </div>
                       </div>
                       <div className="languages">
                         <div>
-                          <img src={mongodb} alt="MongoDB" />
+                          <img src={maven} alt="Maven" />
                         </div>
                         <div>
-                          <p>Mongo DB</p>
-                        </div>
-                      </div>
-                      <div className="languages">
-                        <div>
-                          <img src={npm} alt="NPM" />
-                        </div>
-                        <div>
-                          <p>NPM</p>
+                          <p>Maven</p>
                         </div>
                       </div>
                       <div className="languages">
                         <div>
-                          <img src={vscode} alt="vs-code" />
+                          <img src={restapi} alt="rest api" />
                         </div>
                         <div>
-                          <p>VS-Code</p>
+                          <p>Rest API</p>
+                        </div>
+                      </div>
+                      <div className="languages">
+                        <div>
+                          <img src={sql} alt="Sql" />
+                        </div>
+                        <div>
+                          <p>SQL</p>
+                        </div>
+                      </div>
+
+                      <div className="languages">
+                        <div>
+                          <img src={postman} alt="postman" />
+                        </div>
+                        <div>
+                          <p>Postman</p>
+                        </div>
+                      </div>
+                      <div className="languages">
+                        <div>
+                          <img src={eclipse} alt="eclipse" />
+                        </div>
+                        <div>
+                          <p>eclipse</p>
                         </div>
                       </div>
                       <div className="languages">
@@ -421,7 +270,7 @@ export const Projects = () => {
                     <button>
                       <h3>
                         <a
-                          href="https://github.com/lokesh-patidar/pharmeasy.in"
+                          href="https://github.com/fp05107/Bus_Reservation_System"
                           target="_blank"
                           rel="noreferrer"
                         >
@@ -432,11 +281,11 @@ export const Projects = () => {
                     <button>
                       <h3>
                         <a
-                          href="https://pharmeasy-in.vercel.app/"
+                          href="https://drive.google.com/file/d/1T9I8B3I6nZAWEzTdZ-U7Q-TdAEt5s42S/view?usp=sharing"
                           target="_blank"
                           rel="noreferrer"
                         >
-                          <FaLink /> Diployed Link
+                          <FaLink /> Video Link
                         </a>
                       </h3>
                     </button>
@@ -447,593 +296,6 @@ export const Projects = () => {
 
             <br />
             <br />
-
-            <div className="projectItem1">
-              <div className="projectImage">
-                <h2 className="project-type">
-                  <span>☆</span> getharvest.com website
-                </h2>
-                <GetHarvest />
-              </div>
-              <div className="projectDetails">
-                <h2>Collaborative Project</h2>
-                <div className="desc">
-                  <span>Description</span>
-                  <br />
-                  Harvest is a cloud-based time-tracking tool designed for
-                  businesses of all sizes. Key features include time and expense
-                  management, team management, project management, scheduling,
-                  and invoicing. I worked on it with my team. I had assigned a
-                  team of 5 members for this project to clone getharvest.com.
-                </div>
-
-                <div className="techStacks">
-                  <div className="tech-stacks">
-                    <h3>Tech-Stacks & Tools used</h3>
-                    <div>
-                      <div className="languages">
-                        <div>
-                          <img src={html} alt="html" />
-                        </div>
-                        <div>
-                          <p>HTML</p>
-                        </div>
-                      </div>
-                      <div className="languages">
-                        <div>
-                          <img src={css} alt="CSS" />
-                        </div>
-                        <div>
-                          <p>CSS</p>
-                        </div>
-                      </div>
-                      <div className="languages">
-                        <div>
-                          <img src={javascript} alt="javascript" />
-                        </div>
-                        <div>
-                          <p>JavaScript</p>
-                        </div>
-                      </div>
-                      <div className="languages">
-                        <div>
-                          <img src={vercel} alt="vercel" />
-                        </div>
-                        <div>
-                          <p>Vercel</p>
-                        </div>
-                      </div>
-                      <div className="languages">
-                        <div>
-                          <img src={github} alt="github" />
-                        </div>
-                        <div>
-                          <p>GitHub</p>
-                        </div>
-                      </div>
-                      <div className="languages">
-                        <div>
-                          <img src={vscode} alt="vs-code" />
-                        </div>
-                        <div>
-                          <p>VS-Code</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="btn">
-                    <button>
-                      <h3>
-                        <a
-                          href="https://github.com/lokesh-patidar/getharvest.com"
-                          target="_blank"
-                          rel="noreferrer"
-                        >
-                          <FaGithub /> GitHub Repo
-                        </a>
-                      </h3>
-                    </button>
-                    <button>
-                      <h3>
-                        <a
-                          href="https://getharvest-com.vercel.app/"
-                          target="_blank"
-                          rel="noreferrer"
-                        >
-                          <FaLink /> Diployed Link
-                        </a>
-                      </h3>
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <br />
-            <br />
-
-            <div className="projectItem">
-              <div className="projectImage">
-                <h2 className="project-type">
-                  <span>☆</span> Figmatic Calculator App
-                </h2>
-                <Calculator />
-              </div>
-              <div className="projectDetails">
-                <h2>Individual Project</h2>
-                <div className="desc">
-                  <span>Description</span>
-                  <br />
-                  This is a Figmatic Calculator App that I made with the help of MERN tech stacks, here user can add more pages to the table and the total amount or the of all the pages will be displayed in the top right section and the total amount of particular page in that particular row. Users can also delete the page and update the status in that page section. Here I also implemented the pagination or displayed 5 table data per page.
-                </div>
-
-                <div className="techStacks">
-                  <div className="tech-stacks">
-                    <h3>Tech-Stacks & Tools used</h3>
-                    <div>
-                      <div className="languages">
-                        <div>
-                          <img src={css} alt="CSS" />
-                        </div>
-                        <div>
-                          <p>CSS</p>
-                        </div>
-                      </div>
-                      <div className="languages">
-                        <div>
-                          <img src={javascript} alt="javascript" />
-                        </div>
-                        <div>
-                          <p>JavaScript</p>
-                        </div>
-                      </div>
-                      <div className="languages">
-                        <div>
-                          <img src={vercel} alt="vercel" />
-                        </div>
-                        <div>
-                          <p>Vercel</p>
-                        </div>
-                      </div>
-                      <div className="languages">
-                        <div>
-                          <img src={react} alt="react" />
-                        </div>
-                        <div>
-                          <p>React.js</p>
-                        </div>
-                      </div>
-                      <div className="languages">
-                        <div>
-                          <img src={chakraui} alt="Chakra ui" />
-                        </div>
-                        <div>
-                          <p>Chakra UI</p>
-                        </div>
-                      </div>
-                      <div className="languages">
-                        <div>
-                          <img src={expressjs} alt="express.js" />
-                        </div>
-                        <div>
-                          <p>Express.js</p>
-                        </div>
-                      </div>
-                      <div className="languages">
-                        <div>
-                          <img src={nodejs} alt="node" />
-                        </div>
-                        <div>
-                          <p>Node.js</p>
-                        </div>
-                      </div>
-                      <div className="languages">
-                        <div>
-                          <img src={mongodb} alt="MongoDB" />
-                        </div>
-                        <div>
-                          <p>Mongo DB</p>
-                        </div>
-                      </div>
-                      <div className="languages">
-                        <div>
-                          <img src={npm} alt="NPM" />
-                        </div>
-                        <div>
-                          <p>NPM</p>
-                        </div>
-                      </div>
-                      <div className="languages">
-                        <div>
-                          <img src={vscode} alt="vs-code" />
-                        </div>
-                        <div>
-                          <p>VS-Code</p>
-                        </div>
-                      </div>
-                      <div className="languages">
-                        <div>
-                          <img src={github} alt="github" />
-                        </div>
-                        <div>
-                          <p>GitHub</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="btn">
-                    <button>
-                      <h3>
-                        <a
-                          href="https://github.com/lokesh-patidar/Figmatic_LLP/tree/main/Assignment-1"
-                          target="_blank"
-                          rel="noreferrer"
-                        >
-                          <FaGithub /> GitHub Repo
-                        </a>
-                      </h3>
-                    </button>
-                    <button>
-                      <h3>
-                        <a
-                          href="https://figmatic-llp-legz.vercel.app"
-                          target="_blank"
-                          rel="noreferrer"
-                        >
-                          <FaLink /> Diployed Link
-                        </a>
-                      </h3>
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <br />
-            <br />
-
-            <div className="projectItem1">
-              <div className="projectImage">
-                <h2 className="project-type">
-                  <span>☆</span> Assessment-test Quiz-App
-                </h2>
-                <AssessmentTest />
-              </div>
-              <div className="projectDetails">
-                <h2>Individual Project</h2>
-                <div className="desc">
-                  <span>Description</span>
-                  <br />
-                  IQ Test for kids from 7 to 16 years old, Here is the mini
-                  Quiz-App that I have created with the help of HTML, CSS,
-                  JavaScript, and React.js.
-                </div>
-
-                <div className="techStacks">
-                  <div className="tech-stacks">
-                    <h3>Tech-Stacks & Tools used</h3>
-                    <div>
-                      <div className="languages">
-                        <div>
-                          <img
-                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_3V0WmaHi7hLENYgmyF3iKWD7BP4bn82grA&usqp=CAU"
-                            alt="html"
-                          />
-                        </div>
-                        <div>
-                          <p>HTML</p>
-                        </div>
-                      </div>
-                      <div className="languages">
-                        <div>
-                          <img src={css} alt="CSS" />
-                        </div>
-                        <div>
-                          <p>CSS</p>
-                        </div>
-                      </div>
-                      <div className="languages">
-                        <div>
-                          <img src={javascript} alt="javascript" />
-                        </div>
-                        <div>
-                          <p>JavaScript</p>
-                        </div>
-                      </div>
-                      <div className="languages">
-                        <div>
-                          <img src={react} alt="react" />
-                        </div>
-                        <div>
-                          <p>React.js</p>
-                        </div>
-                      </div>
-                      <div className="languages">
-                        <div>
-                          <img src={npm} alt="NPM" />
-                        </div>
-                        <div>
-                          <p>NPM</p>
-                        </div>
-                      </div>
-                      <div className="languages">
-                        <div>
-                          <img src={vercel} alt="vercel" />
-                        </div>
-                        <div>
-                          <p>Vercel</p>
-                        </div>
-                      </div>
-                      <div className="languages">
-                        <div>
-                          <img src={github} alt="github" />
-                        </div>
-                        <div>
-                          <p>GitHub</p>
-                        </div>
-                      </div>
-                      <div className="languages">
-                        <div>
-                          <img src={vscode} alt="vs-code" />
-                        </div>
-                        <div>
-                          <p>VS-Code</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="btn">
-                    <button>
-                      <h3>
-                        <a
-                          href="https://github.com/lokesh-patidar/Assessment_test_quiz-App"
-                          target="_blank"
-                          rel="noreferrer"
-                        >
-                          <FaGithub /> GitHub Repo
-                        </a>
-                      </h3>
-                    </button>
-                    <button>
-                      <h3>
-                        <a
-                          href="https://quiz-app-lokesh-patidar.vercel.app/"
-                          target="_blank"
-                          rel="noreferrer"
-                        >
-                          <FaLink /> Diployed Link
-                        </a>
-                      </h3>
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <br />
-            <br />
-
-            <div className="projectItem">
-              <div className="projectImage">
-                <h2 className="project-type">
-                  <span>☆</span> beautybebo.com website
-                </h2>
-                <BeautyBebo />
-              </div>
-              <div className="projectDetails">
-                <h2>Individual Project</h2>
-                <div className="desc">
-                  <span>Description</span>
-                  <br />
-                  Beauty Bebo is India's fastest-growing online retail store for
-                  day-to-day and special occasion needs of Makeup, Skincare,
-                  Hair care, Personal care, Mom and Baby care, Fragrance, and
-                  Ayurveda products. This is the clone of the beautybebo.com
-                  website (an e-commerce website) here I have implemented some
-                  functionality and the best UI of the original website.
-                </div>
-
-                <div className="techStacks">
-                  <div className="tech-stacks">
-                    <h3>Tech-Stacks & Tools used</h3>
-                    <div>
-                      <div className="languages">
-                        <div>
-                          <img src={html} alt="html" />
-                        </div>
-                        <div>
-                          <p>HTML</p>
-                        </div>
-                      </div>
-                      <div className="languages">
-                        <div>
-                          <img src={css} alt="CSS" />
-                        </div>
-                        <div>
-                          <p>CSS</p>
-                        </div>
-                      </div>
-                      <div className="languages">
-                        <div>
-                          <img src={javascript} alt="javascript" />
-                        </div>
-                        <div>
-                          <p>JavaScript</p>
-                        </div>
-                      </div>
-                      <div className="languages">
-                        <div>
-                          <img src={netlify} alt="netlify" />
-                        </div>
-                        <div>
-                          <p>Netlify</p>
-                        </div>
-                      </div>
-                      <div className="languages">
-                        <div>
-                          <img src={github} alt="github" />
-                        </div>
-                        <div>
-                          <p>GitHub</p>
-                        </div>
-                      </div>
-                      <div className="languages">
-                        <div>
-                          <img src={vscode} alt="vs-code" />
-                        </div>
-                        <div>
-                          <p>VS-Code</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="btn">
-                    <button>
-                      <h3>
-                        <a
-                          href="https://github.com/lokesh-patidar/rightful-order-9279"
-                          target="_blank"
-                          rel="noreferrer"
-                        >
-                          <FaGithub /> GitHub Repo
-                        </a>
-                      </h3>
-                    </button>
-                    <button>
-                      <h3>
-                        <a
-                          href="https://beautybebo-website-clone.netlify.app/"
-                          target="_blank"
-                          rel="noreferrer"
-                        >
-                          <FaLink /> Diployed Link
-                        </a>
-                      </h3>
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <br />
-            <br />
-
-            <div className="projectItem1">
-              <div className="projectImage">
-                <h2 className="project-type">
-                  <span>☆</span> GitStar App
-                </h2>
-                <GitStar />
-              </div>
-              <div className="projectDetails">
-                <h2>Individual Project</h2>
-                <div className="desc">
-                  <span>Description</span>
-                  <br />
-                  This is the react-based web app which lists the most starred
-                  GitHub repositories. In this app functionalities implemented
-                  are pagination, search, theme-toggling, and view-toggle as
-                  well.
-                </div>
-
-                <div className="techStacks">
-                  <div className="tech-stacks">
-                    <h3>Tech-Stacks & Tools used</h3>
-                    <div>
-                      <div className="languages">
-                        <div>
-                          <img src={html} alt="html" />
-                        </div>
-                        <div>
-                          <p>HTML</p>
-                        </div>
-                      </div>
-                      <div className="languages">
-                        <div>
-                          <img src={css} alt="CSS" />
-                        </div>
-                        <div>
-                          <p>CSS</p>
-                        </div>
-                      </div>
-                      <div className="languages">
-                        <div>
-                          <img src={javascript} alt="javascript" />
-                        </div>
-                        <div>
-                          <p>JavaScript</p>
-                        </div>
-                      </div>
-                      <div className="languages">
-                        <div>
-                          <img src={react} alt="react" />
-                        </div>
-                        <div>
-                          <p>React.js</p>
-                        </div>
-                      </div>
-                      <div className="languages">
-                        <div>
-                          <img src={npm} alt="NPM" />
-                        </div>
-                        <div>
-                          <p>NPM</p>
-                        </div>
-                      </div>
-                      <div className="languages">
-                        <div>
-                          <img src={vercel} alt="vercel" />
-                        </div>
-                        <div>
-                          <p>Vercel</p>
-                        </div>
-                      </div>
-                      <div className="languages">
-                        <div>
-                          <img src={github} alt="github" />
-                        </div>
-                        <div>
-                          <p>GitHub</p>
-                        </div>
-                      </div>
-                      <div className="languages">
-                        <div>
-                          <img src={vscode} alt="vs-code" />
-                        </div>
-                        <div>
-                          <p>VS-Code</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="btn">
-                    <button>
-                      <h3>
-                        <a
-                          href="https://github.com/lokesh-patidar/GitStar"
-                          target="_blank"
-                          rel="noreferrer"
-                        >
-                          <FaGithub /> GitHub Repo
-                        </a>
-                      </h3>
-                    </button>
-                    <button>
-                      <h3>
-                        <a
-                          href="https://git-star-six.vercel.app/"
-                          target="_blank"
-                          rel="noreferrer"
-                        >
-                          <FaLink /> Diployed Link
-                        </a>
-                      </h3>
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
 
             <br />
           </div>
