@@ -6,7 +6,7 @@ import {
 // import Typical from "react-typical";
 import Subham_Sahoo_Resume from "../download/Subham_Sahoo_Resume (1).pdf";
 import { DownloadIcon } from '@chakra-ui/icons';
-import subham from "../Image/profilepic.jpg";
+import subham from "../assets/subham.jpg";
 
 const HomePage = () => {
     return (
@@ -63,7 +63,7 @@ const HomePage = () => {
                                     </> */}
                                 </span>
                                 <span className="profile-tag-line">
-                                    Aspiring Full-Stack ( React, SQL, Java, SpringBoot), Aspiring Full Stack Web Development at Masai School Bangaluru , KARNATAKA
+                                    Full-Stack Developer ( React, SQL, Java, SpringBoot)
                                 </span>
                             </div>
 

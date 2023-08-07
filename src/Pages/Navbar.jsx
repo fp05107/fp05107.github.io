@@ -87,7 +87,7 @@ const Navbar = () => {
 
       <div id="box-1second" className="navbarContainersecond">
         <div className="logosecond">
-          <span>L</span>okesh
+          <span>S</span>ubham
         </div>
         <div className="navsecond">
           <div>
@@ -149,7 +149,7 @@ const Navbar = () => {
           </div>
           <div>
             <div className="navlogo">
-              <span>L</span>okesh
+              <span>S</span>ubham
             </div>
           </div>
         </div>
