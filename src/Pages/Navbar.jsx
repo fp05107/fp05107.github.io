@@ -8,7 +8,7 @@ import {
 } from "react-icons/fa";
 import "../Styles//Navbar.css";
 import { Link } from "react-scroll";
-import Subham_Sahoo_Resume from "../download/Subham_Sahoo_Resume (1).pdf";
+import Subham_Sahoo_Resume from "../download/Subham_Sahoo_Resume.pdf";
 import { DownloadIcon } from '@chakra-ui/icons'
 
 const Navbar = () => {

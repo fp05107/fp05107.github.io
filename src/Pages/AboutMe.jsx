@@ -1,6 +1,6 @@
 import "../Styles/AboutMe.css";
 import React from "react";
-import Subham_Sahoo_Resume from "../download/Subham_Sahoo_Resume (1).pdf";
+import Subham_Sahoo_Resume from "../download/Subham_Sahoo_Resume.pdf";
 import logo from "../assets/img_about_me.webp";
 import { DownloadIcon } from "@chakra-ui/icons";
 

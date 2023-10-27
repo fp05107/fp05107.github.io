@@ -31,7 +31,7 @@ function App() {
       <section id="contact">
         <Contact />
       </section>
-      
+
       <a
         href="https://wa.me/+916371238379"
         className="whatsapp_float"
@@ -45,3 +45,5 @@ function App() {
 }
 
 export default App;
+
+

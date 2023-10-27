@@ -4,9 +4,9 @@ import {
     FaGithub,
 } from "react-icons/fa";
 // import Typical from "react-typical";
-import Subham_Sahoo_Resume from "../download/Subham_Sahoo_Resume (1).pdf";
+import Subham_Sahoo_Resume from "../download/Subham_Sahoo_Resume.pdf";
 import { DownloadIcon } from '@chakra-ui/icons';
-import subham from "../assets/subham.jpg";
+import subham from "../assets/profilepic.jpg";
 
 const HomePage = () => {
     return (
